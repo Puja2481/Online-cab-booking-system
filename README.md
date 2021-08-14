@@ -15,11 +15,11 @@ This is a cab booking system in python. This cab booking system project in Pytho
 
 3.	Initial Login Details
 ```
-	Username    Password
+  Username    Password
   
   Admin	      11801010
   Puja	      11803261
-  Parnasree	  11802020
+  Parnasree   11802020
   Akash	      11702973
   Aarav	      Aarav
   test	      test
