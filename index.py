@@ -19,18 +19,11 @@ db.commit()
 db.close()
 
 #main Class
-class user:
-      
-    #Draw Widgets
-    def widgets(self):
-    
 
 class travel:
-
     def __init__(self,root):
         self.root = root
         self.root.title("Cab Booking System")
-        self.root.geometry(geometry) 
         self.root.configure(background='black')
 
         DateofOrder=StringVar()
@@ -913,15 +906,9 @@ if __name__=='__main__':
 
     root = Tk()
 
-    #=========================================== Getting Screen Width ==================================================================
 
-    w = root.winfo_screenwidth()
-    h = root.winfo_screenheight()
-    geometry="%dx%d+%d+%d"%(w,h,0,0)
-    
-    root.geometry("500x300+320+200")
     root.title('Main Page')
-    #demo = user(root)
+
     demo = travel(root)
     root.mainloop()
     
