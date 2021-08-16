@@ -288,13 +288,7 @@ class CustomLogin(Login):
             messagebox.showerror("Error", "Something went wrong..!")
         pass
 
-'''def main():
-    root = Tk()
-    demo = CustomLogin(root)
-    root.title('Login')
-    root.mainloop()
 
-if __name__ == '__main__': main()'''
 if __name__=='__main__':  
     root = Tk()
     demo = CustomLogin(root)
@@ -302,7 +296,4 @@ if __name__=='__main__':
 
     #=========================================== Getting Screen Width ==================================================================
 
-    #root.title('Main Page')
-    #application = user(root)
-    #application = travel(root)
     root.mainloop()
